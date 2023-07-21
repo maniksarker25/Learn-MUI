@@ -4,7 +4,7 @@ import React from 'react'
 const MuiTextField = () => {
   return (
     <Stack spacing={4}>
-        // variant in input field---------------
+        // variant in input field------------------
         <Stack direction="row" spacing={2}>
             <TextField label="Name" variant='outlined'></TextField>
             <TextField label="Name" variant='filled'></TextField>
