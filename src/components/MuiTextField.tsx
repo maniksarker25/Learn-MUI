@@ -1,4 +1,4 @@
-import { InputAdornment, Stack, TextField} from "@mui/material";
+import { InputAdornment, Stack, TextField } from "@mui/material";
 import React from "react";
 
 const MuiTextField = () => {
@@ -37,13 +37,13 @@ const MuiTextField = () => {
           inputProps={{ readOnly: true }}
         ></TextField>
       </Stack>
-
-
-     // Adornments------------
+      // Adornments------------ :TODO
       <Stack direction="row" spacing={2}>
         <TextField
           label="Amount"
-         inputProps={{startAdornment:<InputAdornment position="start">$</InputAdornment>}}
+          inputProps={{
+            startAdornment: <InputAdornment position="start">$</InputAdornment>,
+          }}
         ></TextField>
         <TextField
           label="Weight"
